@@ -4,18 +4,18 @@
 header{
     position: relative;
     top: 2.1rem;
-    left: 13rem;
+    left: 8rem;
     font-size:145%;
 }
 #img1{
-    padding-left: 13rem;
-    width: 70rem;
-    height: 25rem;
+    padding-left: 8rem;
+    width: 80rem;
+    height: 30rem;
 }
 nav{
     position: absolute;
-    top: 7.2rem;
-    right: 13rem;
+    top: 6.8rem;
+    right: 8rem;
 }
 nav a{
     display: inline-block;
@@ -36,12 +36,13 @@ a[href="#"]{
 }
 #img2{
     display: inline-block;
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
     position: absolute;
-    left: 13rem
+    left: 8rem
 }
 #text{
+    font-size: 120%;
     display: inline-block;
     position: absolute;
     left: 30rem;
