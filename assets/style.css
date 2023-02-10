@@ -1,3 +1,23 @@
-body{
-    background-color: aqua;
+header{
+    font-size: larger;
+    font-family: cursive;
+    font-weight: lighter;
 }
+
+nav a{
+    display: inline-block;
+    width: 8rem;
+    height: 2.5rem;
+    text-align: center;
+    padding: 0.6rem;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: rgb(62, 50, 235);
+    color: white;
+    border-radius: 1rem;
+}
+a[href="#"]{
+    background-color: green
+}
+
+
