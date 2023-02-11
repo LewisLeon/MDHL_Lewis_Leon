@@ -26,13 +26,19 @@ nav a{
     display: inline-block;
     width: 6rem;
     text-align: center;
+    font-weight: bolder;
     padding: 0.6rem;
-    text-decoration: none;
+    text-decoration:none;
     background-color:rgb(238, 55, 55);
     color:rgb(255, 255, 255);
+    border-radius: 2rem;
 }
 a[href="#"]{
     background-color: rgb(13, 0, 128)
+}
+a:hover{
+    background-color: red;
+    color: black;
 }
 #sub{
     display: inline-block;
