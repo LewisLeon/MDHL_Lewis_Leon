@@ -1,13 +1,15 @@
 *{
     font-family: cursive;
+    color: red;
 }
+
 header{
     position: relative;
     top: 2.1rem;
     left: 8rem;
     font-size:145%;
 }
-#img1{
+#imgT{
     padding-left: 8rem;
     width: 80rem;
     height: 30rem;
@@ -26,11 +28,11 @@ nav a{
     text-align: center;
     padding: 0.6rem;
     text-decoration: none;
-    background-color: rgb(62, 50, 235);
-    color: white;
+    background-color:rgb(238, 55, 55);
+    color:rgb(255, 255, 255);
 }
 a[href="#"]{
-    background-color: green
+    background-color: rgb(13, 0, 128)
 }
 #sub{
     display: inline-block;
@@ -44,6 +46,7 @@ a[href="#"]{
     display: inline-block;
     width: 20rem;
     height: 20rem;
+    top: 43rem;
     position: absolute;
     left: 8rem
 }
@@ -52,4 +55,25 @@ a[href="#"]{
     display: inline-block;
     position: absolute;
     left: 30rem;
+    font-weight: 550;
+    max-width: 50rem;
+}
+#fondo{
+    display: inline-block;
+    position: absolute;
+    left: 35rem;
+    top: 47.6rem;
+}
+#fonde{
+    width: 35rem;
+    height: 35rem;
+    opacity:calc(80%) ;
+}
+#img1{
+    display: inline-block;
+    width: 20rem;
+    height: 20rem;
+    top: 63rem;
+    position: absolute;
+    left: 8rem
 }
