@@ -52,6 +52,16 @@ a[href="#"]:hover{
     font-size: 180%;
     font-weight: bolder;
 }
+#B{
+    Display: inline-block;
+    position: relative;
+    left: 1.5rem;
+}
+#C{
+    Display: inline-block;
+    position: relative;
+    left: 7rem;
+}
 #img2{
     display: inline-block;
     width: 20rem;
