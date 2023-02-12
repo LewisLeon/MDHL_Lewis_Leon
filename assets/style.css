@@ -5,8 +5,8 @@
 
 header{
     position: relative;
-    top: 2.1rem;
-    left: 8rem;
+    top: 38rem;
+    left: 29.5rem;
     font-size:145%;
 }
 #imgT{
@@ -40,10 +40,14 @@ a:hover{
     background-color: red;
     color: black;
 }
+a[href="#"]:hover{
+    background-color: blueviolet;
+    color: aqua;
+}
 #sub{
     display: inline-block;
     position: relative;
-    left: 38rem;
+    left: 39rem;
     text-align: center;
     font-size: 180%;
     font-weight: bolder;
