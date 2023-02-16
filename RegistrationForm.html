@@ -22,20 +22,161 @@
             </nav>
         </div>
     </header>
+    <form action="./ShowData.html">
     <main>
         <div class="imgt">
             <img class="titleimg" src="./imagenes/design1_image2.jpg" alt="imagen principal">
         </div>
-        <div>
+        <div class="content">
+            <h2>Registration Form</h2>
+        </div>
+        <div class="special">
             <section>
-                <div class="content">
-                    <h2>Registration Form</h2>
-                </div>
+                <h2 class="invisible"> /</h2>
+                    <fieldset class="F1">
+                        <label>
+                            Playe's First Name:
+                            <input type="text" name="Firstname">
+                        </label>
+                        <label>
+                            Last Name:
+                            <input type="text" name="Lastname">
+                        </label>
+                        <label>
+                            Street Address:
+                            <input type="text" name="Address">
+                        </label>
+                        <label>
+                            City:
+                            <input type="text" name="City">
+                        </label>
+                        <label>
+                            Zip Code:
+                            <input type="number" name="ZipCode">
+                        </label>
+                        <label>
+                            Birth Date:
+                            <input type="date" name="BirthDate">
+                        </label>
+                        <label>
+                            Gender:
+                            Famale <input type="radio" name="Gender" value="F">
+                        </label>
+                        <label>
+                            Male <input type="radio" name="Gender" value="M"> 
+                        </label>
+                        <label>
+                            Grade:
+                            <input type="radio" name="Grade" value="P">Pre-School
+                        </label>
+                        <label>
+                            <input type="radio" name="Grade" value="1"> 1st
+                        </label>
+                            <input type="radio" name="Grade" value="2">2nd
+                        <label>
+                            <input type="radio" name="Grade" value="3">3rd
+                        </label>
+                        <label>
+                            <input type="radio" name="Grade" value="4">4th
+                        </label>
+                        <label>
+                            <input type="radio" name="Grade" value="5">5th
+                        </label>
+                    </fieldset>
             </section>
+            <h2 class="invisible"> /</h2>
             <section>
-                
+                <h2>Which elementary school do you live near?</h2>
+                    <fieldset class="F2">
+                        <legend>Closest School:</legend>
+                        <label>
+                            <input type="radio" name="Scholl" value="AJ"> AJ Katzenmaier
+                        </label>
+                        <label>
+                            <input type="radio" name="Scholl" value="Gy"> Greenbay
+                        </label>
+                        <label>
+                            <input type="radio" name="Scholl" value="HY"> Howard A Yeager
+                        </label>
+                        <label>
+                            <input type="radio" name="Scholl" value="MH"> Marjorie P Hart
+                        </label>
+                        <label>
+                            <input type="radio" name="Scholl" value="NE"> North Elementary
+                        </label>
+                        <label>
+                            <input type="radio" name="Scholl" value="SE"> South Elementary
+                        </label>
+                    </fieldset>
+            </section>
+            <h2 class="invisible"> /</h2>
+            <section  class="s3">
+                <h2>What position(s) do you normally play?</h2>
+                    <fieldset class="F3">
+                        <label>
+                            <input type="checkbox" name="position" value="FW"> Forward
+                        </label>
+                        <label>
+                            <input type="checkbox" name="position" value="DF"> Defense
+                        </label>
+                        <label>
+                            <input type="checkbox" name="position" value="MD"> Midfield
+                        </label>
+                        <label>
+                            <input type="checkbox" name="position" value="GK"> Goalkeeper
+                        </label>
+                    </fieldset>
+            </section>
+            <h2 class="invisible"> /</h2>
+            <section>
+                <h2>Uniform Size:</h2>
+                    <fieldset class="F4">
+                        <label>
+                            <input type="radio" name="Uniform" value="YS"> Youth Small
+                        </label>
+                        <label>
+                            <input type="radio" name="Uniform" value="YM"> Youth Medium
+                        </label>
+                        <label>
+                            <input type="radio" name="Uniform" value="YL"> Youth Large
+                        </label>
+                        <label>
+                            <input type="radio" name="Uniform" value="Saturday"> Small
+                        </label>
+                        <label>
+                            <input type="radio" name="Uniform" value="M"> Medium
+                        </label>
+                        <label>
+                            <input type="radio" name="Uniform" value="L"> Large
+                        </label>                        
+                        <label>
+                            <input type="radio" name="Uniform" value="XL"> Extra-Large
+                        </label>                        
+                    </fieldset>
             </section>
         </div>
     </main>
+    <footer>
+        <div class="reg">
+            <h3>Permission to Play</h3>
+            <p>I, the parent or guardioan of the minor registrant, agree tjat tje regidtrant and i will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs an activities. I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or no behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities, which transpotation. <br> By signing below, I hereby agree and authorizethe above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.</p>
+        </div>
+        <div class="Fdiv">
+                <fieldset class="FF">
+                    <label>
+                        Parent/Guardian Signature:
+                        <input type="text" name="Signature">
+                    </label>
+                    <label>
+                        Date:
+                        <input type="date" name="DateSignature">
+                    </label>
+                    <label>
+                    <input type="submit">
+                    </label>
+                </fieldset>
+        </div>
+    </footer>
+</form>
 </body>
 </html>
