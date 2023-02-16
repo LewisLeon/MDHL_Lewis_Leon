@@ -221,3 +221,14 @@ fieldset{
 .s3{
     margin: 0 0 0 15rem;
 }
+.in{
+    text-decoration: underline;
+    border-style:none;
+    border-bottom-style: solid;
+    border-color: white;
+}
+.on{
+    text-decoration: underline;
+    border-style:dotted;
+    border-color: white;
+}
