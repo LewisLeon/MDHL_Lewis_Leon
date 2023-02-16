@@ -5,10 +5,8 @@
     box-sizing: border-box;
     font-family:cursive;
     background-color: rgb(131, 21, 21);
-/*     outline: 1px solid red; */
 }
 header{
-/*     background-color: rgb(68, 0, 255); */
     height: 6rem;
     display: flex;
     padding: 1rem;
@@ -16,7 +14,6 @@ header{
     justify-content: space-between;
 }
 .content{
-/*     background-color: rgb(49, 21, 151) ; */
     font-size: 125%;
     margin-bottom: 5vh;
 }
@@ -72,7 +69,6 @@ header a{
     margin: 0.5vh;
 }
 main{
-/*     background-color: rgb(49, 21, 151); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,9 +79,6 @@ main{
     height: 60vh;
     width: 160vh;
 }
-/* .imgt{
-    background-color: black;
-} */
 .link{
     text-decoration: none;
 }
@@ -120,29 +113,17 @@ main a:hover {
     text-decoration: underline;
 }
 .tabla{
-    /* background: linear-gradient(rgb(6 2 20), rgba(19, 10, 101, 0.78)); */
-    /* background: linear-gradient(rgb(0, 0, 0), rgba(10, 6, 48, 0.875)); */
-    /* background: linear-gradient(rgb(163, 11, 11), rgb(163, 11, 11)); */
     margin-top: 5vh;
     min-height: 60vh;
     display: flex;
     align-items: center;
 }
-.tabla{
-    justify-content: center;
-    align-items: center;
-}
 table {
-/*     background-color: rgb(5, 119, 107);
-    width: 50vw;
-    height: 30vh; */
     border-collapse: collapse;
-/*     border: 1px solid black;
-    border-radius: 6px; */
 }
 th,
 td {
-    border: 1px solid white;
+/*     border: 1px solid white; */
     color: white;
     padding: 10px;
 }
@@ -153,8 +134,6 @@ td {
 }
 .fecha{
     text-align:center;
-/*     padding-left: 5vh;
-    padding-right: 5vh; */
 }
 .text{
     display: flex;
@@ -169,4 +148,11 @@ td {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10vh;
+}
+.ubicationtxt{
+    background-color: black;
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: 2rem;
+/*     padding: 15px; */
 }
